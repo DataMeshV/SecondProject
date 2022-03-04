@@ -1,7 +1,6 @@
 body{
     margin: 0px;
     padding: 0px;
-    height: 1500px;
 }
 header{
     background-color: rgb(228, 228, 228);
@@ -145,5 +144,211 @@ ul li a{
 }
 .relaxText:hover{
     background-color: rgb(0, 153, 255);
+    color: white;
+}
+.iconsDiv{
+    width: 100%;
+    height: 160px;
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.line{
+    width: 3px;
+    height: 40px;
+    background-color: gray;
+    display: inline-block;
+    margin-top: 46px;
+    margin-left: 50px;
+}
+.iconsDiv h1{
+    margin-left: 50px;
+    display: inline-block;
+    margin-top: 50px;
+}
+.blog{
+    margin: 0px;
+    float: right;
+    font-weight: 100;
+}
+.travel1{
+    margin-bottom: 0px;
+}
+.tour{
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-top: 55px;
+}
+.palmTrees{
+    width: 846px;
+    height: 476px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    display: block;
+    background-image: url(https://static.wixstatic.com/media/ae5901bd4fda41009c4cc4a19bb70d05.jpg/v1/fill/w_846,h_476,fp_0.50_0.50,q_90/ae5901bd4fda41009c4cc4a19bb70d05.webp);
+}
+.info{
+    width: 846px;
+    height: 250px;
+    border: 1px solid silver;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.fa-user{
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.nov22{
+    display: inline-block;
+    margin-top: 21px;
+    margin-left: 10px;
+    font-weight: 100;
+    font-size: 13px;
+}
+.girl{
+    font-weight: 100;
+    font-size: 24px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.line1{
+    width: 757px;
+    height: 1px;
+    background-color: silver;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.pineapple{
+    width: 846px;
+    height: 476px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    display: block;
+    background-image: url(https://static.wixstatic.com/media/f969ea5e4ea64a66af55f3cb06895101.jpg/v1/fill/w_846,h_476,fp_0.50_0.50,q_90/f969ea5e4ea64a66af55f3cb06895101.webp);
+}
+.info1{
+    width: 846px;
+    height: 250px;
+    border: 1px solid silver;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.info2{
+    width: 846px;
+    height: 250px;
+    border: 1px solid silver;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.houses{
+    width: 846px;
+    height: 476px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    display: block;
+    background-image: url(https://static.wixstatic.com/media/e3190f8f39f5445c8e5d4153ab1414aa.jpg/v1/fill/w_846,h_476,fp_0.50_0.50,q_90/e3190f8f39f5445c8e5d4153ab1414aa.webp);
+}
+.SocialContact{
+    margin-top: 50px;
+    width: 100%;
+    height: 71px;
+    background-color: rgb(0, 68, 255);
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.footerUl{
+    display: inline-block;
+}
+.footerUl li{
+    display: inline-block;
+    color: white;
+}
+.footerUl li a{
+    color: white;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.photosDiv{
+    width: 100%;
+    display: flex;
+}
+.img1{
+    width: 25%;
+    height: 250px;
+    object-fit: cover;
+}   
+.img2{
+    width: 25%;
+    height: 250px;
+    object-fit: cover;
+}
+.img3{
+    width: 25%;
+    height: 250px;
+    object-fit: cover;
+}
+.img4{
+    width: 25%;
+    height: 250px;
+    object-fit: cover;
+}
+.footerInfo{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(97, 96, 96);
+    display: flex;
+}
+.footerInfoImg{
+    background-image: url(https://static.wixstatic.com/media/90cf860d8e3548fdb4808f676ee3e05d.jpg/v1/fill/w_126,h_127,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/90cf860d8e3548fdb4808f676ee3e05d.jpg);
+    width: 126px;
+    height: 127px;
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 150px;
+}
+.textAboutme{
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 20px;
+    font-weight: 100;
+    color: white;
+}
+.MailingList{
+    margin-left: 70px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-weight: lighter;
+}
+.emailinput{
+    margin-top: 20px;
+    width: 300px;
+    height: 30px;
+    background-color: rgb(97, 96, 96);;
+    border: 1px solid white;
+}
+.emailinput:hover{
+    border: 2px solid white;
+}
+.subscribe{
+    border: none;
+    margin-top: 15px;
+    width: 307px;
+    height: 34px;
+    color: white;
+    background-color: rgb(0, 110, 255);
+    text-align: center;
+}
+.subscribe:hover{
+    background-color: rgb(0, 162, 255);
     color: white;
 }
